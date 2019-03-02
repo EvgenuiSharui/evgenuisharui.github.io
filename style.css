@@ -19,7 +19,7 @@ body {
 	float: left;
 }
 .col-md-3 {
-	width: 25%;
+	c
 
 }
 .col-md-6 {
@@ -127,7 +127,7 @@ input[type*="submit"] {
     width: 30px; /* Ширина кнопки */
     height: 30px; /* Высота кнопки */
     border: none; /* Убираем рамку */
-    background: url(images/search.png) no-repeat 50% 50% ; /* Параметры фона */
+    background: url(Images/search.png) no-repeat 50% 50% ; /* Параметры фона */
     background-color:#2d71b8;
     vertical-align: middle; /* Выравнивание по середине */
 }
@@ -140,11 +140,15 @@ input[type*="submit"] {
 }
 .basket{
 	margin-left: 10px;
-	background: url(images/basket.png) no-repeat 50% 50%;
+	background: url(Images/basket.png) no-repeat 50% 50%;
 	background-color:white;
 	position: relative;
 }
 .number{
+	font-size: 13px;
+	height: 15px;
+	width: 15px;
+	text-align: center;
 	position: absolute;
 	background-color: #2d71b8;
 	border-radius: 50px; 
