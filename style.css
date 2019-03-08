@@ -222,7 +222,7 @@ input[placeholder="search"]:focus {
     position: relative;
 }
 .target {
-    background-image: url(images/target2.png);
+    background-image: url(Images/target2.png);
     background-repeat: no-repeat;
     background-position: center;
     top: 8px;
@@ -231,10 +231,10 @@ input[placeholder="search"]:focus {
 .target:hover {
     border: 1px solid white;
     background-color: #2c71b8;
-    background-image: url(images/target1.png);
+    background-image: url(Images/target1.png);
 }
 .like {
-    background-image: url(images/like2.png);
+    background-image: url(Images/like2.png);
     background-repeat: no-repeat;
     background-position: center;
     top: 48px;
@@ -243,7 +243,7 @@ input[placeholder="search"]:focus {
 .like:hover {
     border: 1px solid white;
     background-color: #2c71b8;
-    background-image: url(images/like1.png);
+    background-image: url(Images/like1.png);
 }
 
 .detales>h3 {
@@ -285,7 +285,7 @@ input[value="more detales"] {
 input[value="add to card"] {
     margin-bottom: 28px;
     background-color: rgba(255, 255, 255, 0.20);
-    background-image: url(images/basket-2.png);
+    background-image: url(Images/basket-2.png);
     background-repeat: no-repeat;
     background-position: 185px;
 
