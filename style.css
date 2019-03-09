@@ -277,6 +277,7 @@ input[placeholder="search"]:focus {
     text-transform: uppercase;
     color: white;
     font-size: 21px;
+    
 }
 input[value="more detales"] {
     margin-bottom: 15px;
