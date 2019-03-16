@@ -106,8 +106,10 @@ ul.menu>li:hover>ul.submenu{
 }
 .container-fluid{
 	height: 100%;
-	margin-top: 5px;
-
+	height: 400px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	background-color: rgba(0,0,128,0.5); 
 }
 .search:after {
 	content: "" ;
@@ -195,6 +197,48 @@ input[placeholder="search"]:focus {
 	font-size: 48px;
     font-weight: bold;
     margin: 10px 0px 20px;
+}
+
+.sort{
+
+}
+form{
+	display: none;
+	
+}
+
+label{
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 20px;
+}
+label:before {
+	content: "";
+	/*display: block;*/
+	width: 50px;
+	height: 50px;
+	/*border:1px solid red;*/
+}
+form>input:checked{
+	background-color: red;
+}
+form>h6{
+	padding: 30px 0px 23px 0px;
+}
+form{
+	color: white;
+	display: block;
+}
+label>input[type*="checkbox"] {
+    border: none; 
+    outline: none; 
+    vertical-align: middle; 
+   	background-color: inherit;
+   	filter: alpha(opacity='60');
+	opacity: .6;
+	-moz-opacity: 0.6;
+	
 }
 .mr {
     margin-right: 30px;
